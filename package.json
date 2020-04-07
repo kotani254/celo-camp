@@ -1,0 +1,18 @@
+{
+  "name": "celocamp",
+  "description": "Created by steve Kiarie",
+  "scripts": {
+    "start": "npm run shell"
+  },
+  "engines": {
+    "node": "8"
+  },
+  "dependencies": {
+    "@celo/contractkit": "^0.2.14",
+    "bip39-light": "^1.0.7",
+    "ethereumjs-util": "^6.2.0",
+    "prettyjson": "^1.2.1"
+  },
+  "devDependencies": {},
+  "private": true
+}
