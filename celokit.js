@@ -3,7 +3,6 @@
 const contractkit = require('@celo/contractkit');
 const { isValidPrivate, privateToAddress, privateToPublic, pubToAddress, toChecksumAddress } = require ('ethereumjs-util');
 const bip39 = require('bip39-light');
-// const bigNumber = require('bignumber-to-string');
 
 const NODE_URL = 'https://alfajores-forno.celo-testnet.org'; 
 
