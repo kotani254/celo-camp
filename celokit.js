@@ -25,7 +25,7 @@ let privatekey = 'b9b10dd7f800bfb537ff28d4e3c3abce81f4bac90fbc480bec790994726373
 // Send Celo USD
 sendcUSD(sender, receiver, amount, privatekey)
 //Send Celo GOLD
-sendcGold(sender, receiver, amount, privatekey)
+// sendcGold(sender, receiver, amount, privatekey)
 
 //GET LATEST BLOCK NUMBER
 getBlock().then(latest => {
@@ -51,7 +51,7 @@ async function createCeloAccount(){
     console.log('mnemonic: ', mnemonic);
 
     let privKey = await generatePrivKey(mnemonic);
-    console.log('PrivKey from @celo: ...', '0x',privKey);
+    console.log('PrivKey from @celo: ...', privKey);
 
     let pubkey = await getPublicKey(privKey);
     console.log('Public Key from @celo: ...', pubkey);
